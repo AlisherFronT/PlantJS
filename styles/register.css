@@ -1,0 +1,47 @@
+body {
+    background: rgb(229, 228, 228);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+form {
+    width: 25%;
+    background-color: #DDF2DA;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+form h1 {
+    font-style: italic;
+    margin: 8px 0;
+}
+form input {
+    width: 80%;
+    padding: 15px 10px;
+    margin: 8px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+form p {
+    color: red;
+    margin: 4px 0;
+}
+form button {
+    width: 40%;
+    padding: 15px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background-color: rgb(21, 106, 78);
+    color:  white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+form a {
+    color: blue;
+}
