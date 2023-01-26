@@ -25,12 +25,14 @@
                         <a class="menu__item">О нас</a>
                         <a class="menu__item">Контакты</a>
 
-                        <span class="shop">
-                    <img src="./assets/img/shop.png" alt="">
-                </span>
-                        <span class="auth">
-                    <img src="./assets/img/auth.png" >
-                </span>
+                        <a href="./pages/basket.html" class="shop">
+                            <img src="./assets/img/shop.png" alt="">
+                        </a>
+
+                        <a href="./pages/register.html" class="auth">
+                            <img src="./assets/img/auth.png" >
+                        </a>
+
                     </nav>
                 </div>
             </div>
@@ -58,17 +60,11 @@
 
         <div class="separator">
             <div class="sep__container">
-                <div class="separator__about">
                     <p class="separator__title">Получите скидку 10% при первой покупке!</p>
-                </div>
             </div>
-
         </div>
 
         <section class="products">
-
-
-
             <div class="product__filter">
                 <select class="select-type">
                     <option value="">Тип растения</option>
@@ -95,6 +91,75 @@
             </div>
         </section>
 
-<script src="js/main.js"></script>
+        <div class="separator-popular">
+            <div class="sep__container">
+                    <h1 class="separator-popular-title">ПОПУЛЯРНЫЕ</h1>
+            </div>
+
+        </div>
+
+        <div class="inner-pop">
+            <img class="fon" src="./assets/img/popfon.png" alt="">
+        </div>
+
+        <section class="popular">
+            <div class="container__popular">
+                <div class="column-left">
+                    <div class="popular__card">
+                        <img class="popular__img" src="./assets/img/plantimg/2.png" alt="">
+                        <div class="popular__text">
+                            <p class="popular__title">FEJKA ФЕЙКА</p>
+                            <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
+                            <p class="popular__price">1 300 ₽</p>
+                        </div>
+                    </div>
+                    <div class="popular__card">
+                        <img class="popular__img" src="./assets/img/plantimg/1.png" alt="">
+                        <div class="popular__text">
+                            <p class="popular__title">FEJKA ФЕЙКА</p>
+                            <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
+                            <p class="popular__price">1 300 ₽</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-right">
+                    <div class="popular__right">
+                        <img class="right" src="./assets/img/rightfon.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__first">
+                    <h2 class="footer__title">PLANT CORNER</h2>
+                    <p class="footer__about">Присоединяйтесь к клубу PLANT CORNER чтобы получить скидку по вашей карте. Если у вас еще нет карты, оформите ее онлайн прямо сейчас.</p>
+                    <button class="footer-btn">Присоединиться к клубу PLANT CORNER</button>
+                </div>
+
+                <div class="footer__links">
+                    <a class="footer__link" href="">Доставка и самовывоз</a>
+                    <a class="footer__link" href="">Обмен и возврат</a>
+                    <a class="footer__link" href="">Кредит в PLANT CORNER</a>
+                </div>
+
+                <div class="footer__links">
+                    <a class="footer__link" href=""> О компании</a>
+                    <a class="footer__link" href="">Демократичный дизайн</a>
+                    <a class="footer__link" href="">Работа в PLANT CORNER</a>
+                </div>
+
+                <div class="footer__links">
+                    <a class="footer__link" href="">Обратная связь</a>
+                    <a class="footer__link" href="">Контакты</a>
+                    <a class="footer__link" href="">Магазины и студии</a>
+                </div>
+
+            </div>
+        </footer>
+
+        <script  src="/js/main.js"></script>
 </body>
 </html>

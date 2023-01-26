@@ -12,7 +12,7 @@
       "id" : 2,
       "title" : "Шалфей",
       "type": "Для офиса",
-      "desc": "шалфей тоже не цветок",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 2400,
       "images": "/assets/img/plantimg/4.png"
     },
@@ -20,7 +20,7 @@
       "id" : 3,
       "title" : "Фейхоа",
       "type": "Для офиса",
-      "desc": "выдумал это даже не цветок",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 4500,
       "images": "/assets/img/plantimg/2.png"
     },
@@ -28,7 +28,7 @@
       "id" : 4,
       "title" : "Папоротник",
       "type": "Для дачи",
-      "desc": "папоротник твой рот папоротит",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 2300,
       "images": "/assets/img/plantimg/3.png"
     },
@@ -36,7 +36,7 @@
       "id" : 5,
       "title" : "Пример",
       "type": "Для дачи",
-      "desc": "Описание цветка заполнить",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 6000,
       "images": "/assets/img/plantimg/5.png"
     },
@@ -44,7 +44,7 @@
       "id" : 6,
       "title" : "Monsterra",
       "type": "Для дома",
-      "desc": "Monsterra",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 9000,
       "images": "/assets/img/plantimg/7.png"
     },
@@ -52,15 +52,15 @@
       "id" : 7,
       "title" : "Bansai",
       "type": "Необычные",
-      "desc": "Bansai",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 12000,
       "images": "/assets/img/plantimg/8.png"
     },
     {
       "id" : 8,
-      "title" : "Glorosium Philodendron",
+      "title" : "Glorosium",
       "type": "Для офиса",
-      "desc": "Glorosium Philodendron",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 8500,
       "images": "/assets/img/plantimg/10.png"
     },
@@ -68,7 +68,7 @@
       "id" : 9,
       "title" : "Samvida Patel",
       "type": "Необычные",
-      "desc": "Samvida Patel",
+      "desc": "Искусственное растение в горшке. 9 см",
       "price": 5100,
       "images": "/assets/img/plantimg/9.png"
     }
