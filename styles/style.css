@@ -69,6 +69,10 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+.menu__item:hover{
+    opacity: 0.7;
+    transform: scale(1.2);
+}
 
 .begin{
     width: 100%;
@@ -109,8 +113,13 @@ body{
     color: #ffffff;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
-
+.begin__btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 .row__img{
     width: 100%;
     height: 320px;
@@ -196,6 +205,9 @@ body{
     color: #6CA751;
     outline: none;
 }
+select {
+    cursor: pointer;
+}
 .select-price{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -220,6 +232,13 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+.product__card:hover {
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
 }
 
 .product__title{
@@ -364,12 +383,76 @@ body{
     color: #60A241;
 }
 
+/*User*/
+.userInfo {
+    width: 280px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -290px;
+    z-index: 2;
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: 1s;
+}
+.userInfo h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+.userInfoImg {
+    text-align: center;
+    margin: 10px 0;
+}
+.userImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.userBtn {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userBtn button {
+    width: 150px;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.userBtn button:hover {
+    opacity: 0.7;
+}
+.user {
+    position: absolute;
+    top: 8.5%;
+    left: -20%;
+    cursor: pointer;
+    transition: 1s;
+}
+.userIcon {
+    left: -10%;
+}
+.active {
+    top: 0;
+    right: 0;
+}
 
 
 
 
+/*swiper*/
 
-
-
+.swiper-wrapper {
+    text-align: center;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    color: #6CA751;
+}
 
 

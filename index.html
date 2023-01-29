@@ -1,165 +1,211 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/style.css">
     <title>Plant Corner</title>
 </head>
+
 <body>
-        <header class="header">
-            <div class="header__container">
-                <div class="header__line">
-                    <div class="header__logo">
-                        <img class="header__img" src="./assets/img/hlogo.png" alt="">
-                        <span class="header__title">Planet Corner</span>
-                    </div>
-                    <nav class="menu">
-                        <a class="menu__item">Меню </a>
-                        <a class="menu__item">Продукт</a>
-                        <a class="menu__item">О нас</a>
-                        <a class="menu__item">Контакты</a>
+    <div class="userInfo">
+        <img class="user" src="./assets/img/auth.png">
+        <h2>User</h2>
 
-                        <a href="" class="shop">
-                            <img src="./assets/img/shop.png" alt="">
-                        </a>
-
-                        <a href="./pages/register.html" class="auth">
-                            <img src="./assets/img/auth.png" >
-                        </a>
-
-                    </nav>
+        <div class="userInfoImg">
+            <img class="userImg" src="" alt="">
+        </div>
+        <div>
+            <p class="userName">Name: </p>
+            <p class="userEmail">Email: </p>
+        </div>
+        <div class="userBtn">
+            <button class="logOut">Выйти</button>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__line">
+                <div class="header__logo">
+                    <img class="header__img" src="./assets/img/hlogo.png" alt="">
+                    <span class="header__title">Planet Corner</span>
                 </div>
-            </div>
-        </header>
+                <nav class="menu">
+                    <a class="menu__item">Меню </a>
+                    <a class="menu__item">Продукт</a>
+                    <a class="menu__item">О нас</a>
+                    <a class="menu__item">Контакты</a>
 
-        <section class="begin">
-            <div class="begin__container">
-                <h1 class="begin__title">Искусственные растения и цветы</h1>
-                <p class="begin__desc">Наши искусственные цветы и растения выглядят естественно, но лишены
-                    натурального аромата. Тем не менее, они способны преобразить ваш дом.
-                    Такие растения не вянут и долгие годы выглядят свежими. Запаситесь
-                    разными цветами и меняйте их по настроению или с приходом нового
-                    времени года.</p>
-                <button class="begin__btn">Купить сейчас</button>
-            </div>
-        </section>
+                    <a href="" class="shop">
+                        <img src="./assets/img/shop.png" alt="">
+                    </a>
 
-        <section class="row__img">
-            <div class="row__container">
-                <img class="row__image" src="./assets/img/plantimg/1.png" alt="">
-                <img class="row__image" src="./assets/img/plantimg/2.png" alt="">
-                <img class="row__image" src="./assets/img/plantimg/3.png" alt="">
-            </div>
-        </section>
-
-        <div class="separator">
-            <div class="sep__container">
-                    <p class="separator__title">Получите скидку 10% при первой покупке!</p>
+                </nav>
             </div>
         </div>
+    </header>
 
-        <section class="products">
-            <div class="product__filter">
-                <select class="select-type">
-                    <option value="">Тип растения</option>
-                    <option value="Для дачи">Для дачи</option>
-                    <option value="Для дома">Для дома</option>
-                    <option value="Для офиса">Для офиса</option>
-                    <option value="Необычные">Необычные</option>
-                </select>
-                <select class="select-price">
-                    <option value="">По умолчанию</option>
-                    <option value="asc">По возрастанию</option>
-                    <option value="desc">По убыванию</option>
-                </select>
-            </div>
+    <section class="begin">
+        <div class="begin__container">
+            <h1 class="begin__title">Искусственные растения и цветы</h1>
+            <p class="begin__desc">Наши искусственные цветы и растения выглядят естественно, но лишены
+                натурального аромата. Тем не менее, они способны преобразить ваш дом.
+                Такие растения не вянут и долгие годы выглядят свежими. Запаситесь
+                разными цветами и меняйте их по настроению или с приходом нового
+                времени года.</p>
+            <button class="begin__btn">Купить сейчас</button>
+        </div>
+    </section>
 
-            <div class="products__container">
-
-                <div class="products__row">
-
+    <section class="row__img">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/1.png" alt="">
                 </div>
-
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/2.png" alt="">
                 </div>
-                
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/10.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/5.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/7.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/8.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="row__image" src="./assets/img/plantimg/9.png" alt="">
+                </div>
+                ...
             </div>
-        </section>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </section>
 
-        <div class="separator-popular">
-            <div class="sep__container">
-                    <h1 class="separator-popular-title">ПОПУЛЯРНЫЕ</h1>
+    <div class="separator">
+        <div class="sep__container">
+            <p class="separator__title">Получите скидку 10% при первой покупке!</p>
+        </div>
+    </div>
+
+    <section class="products">
+        <div class="product__filter">
+            <select class="select-type">
+                <option value="">Тип растения</option>
+                <option value="Для дачи">Для дачи</option>
+                <option value="Для дома">Для дома</option>
+                <option value="Для офиса">Для офиса</option>
+                <option value="Необычные">Необычные</option>
+            </select>
+            <select class="select-price">
+                <option value="">По умолчанию</option>
+                <option value="asc">По возрастанию</option>
+                <option value="desc">По убыванию</option>
+            </select>
+        </div>
+
+        <div class="products__container">
+
+            <div class="products__row">
+
             </div>
 
         </div>
 
-        <div class="inner-pop">
-            <img class="fon" src="./assets/img/popfon.png" alt="">
+        </div>
+    </section>
+
+    <div class="separator-popular">
+        <div class="sep__container">
+            <h1 class="separator-popular-title">ПОПУЛЯРНЫЕ</h1>
         </div>
 
-        <section class="popular">
-            <div class="container__popular">
-                <div class="column-left">
-                    <div class="popular__card">
-                        <img class="popular__img" src="./assets/img/plantimg/2.png" alt="">
-                        <div class="popular__text">
-                            <p class="popular__title">FEJKA ФЕЙКА</p>
-                            <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
-                            <p class="popular__price">1 300 ₽</p>
-                        </div>
-                    </div>
-                    <div class="popular__card">
-                        <img class="popular__img" src="./assets/img/plantimg/1.png" alt="">
-                        <div class="popular__text">
-                            <p class="popular__title">FEJKA ФЕЙКА</p>
-                            <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
-                            <p class="popular__price">1 300 ₽</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column-right">
-                    <div class="popular__right">
-                        <img class="right" src="./assets/img/rightfon.png" alt="">
-                    </div>
-                </div>
+    </div>
 
+    <div class="inner-pop">
+        <img class="fon" src="./assets/img/popfon.png" alt="">
+    </div>
+
+    <section class="popular">
+        <div class="container__popular">
+            <div class="column-left">
+                <div class="popular__card">
+                    <img class="popular__img" src="./assets/img/plantimg/2.png" alt="">
+                    <div class="popular__text">
+                        <p class="popular__title">FEJKA ФЕЙКА</p>
+                        <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
+                        <p class="popular__price">1 300 ₽</p>
+                    </div>
+                </div>
+                <div class="popular__card">
+                    <img class="popular__img" src="./assets/img/plantimg/1.png" alt="">
+                    <div class="popular__text">
+                        <p class="popular__title">FEJKA ФЕЙКА</p>
+                        <p class="popular__desc">Искусственное растение в горшке. 9 см</p>
+                        <p class="popular__price">1 300 ₽</p>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="footer__first">
-                    <h2 class="footer__title">PLANT CORNER</h2>
-                    <p class="footer__about">Присоединяйтесь к клубу PLANT CORNER чтобы получить скидку по вашей карте. Если у вас еще нет карты, оформите ее онлайн прямо сейчас.</p>
-                    <button class="footer-btn">Присоединиться к клубу PLANT CORNER</button>
+            <div class="column-right">
+                <div class="popular__right">
+                    <img class="right" src="./assets/img/rightfon.png" alt="">
                 </div>
-
-                <div class="footer__links">
-                    <a class="footer__link" href="">Доставка и самовывоз</a>
-                    <a class="footer__link" href="">Обмен и возврат</a>
-                    <a class="footer__link" href="">Кредит в PLANT CORNER</a>
-                </div>
-
-                <div class="footer__links">
-                    <a class="footer__link" href=""> О компании</a>
-                    <a class="footer__link" href="">Демократичный дизайн</a>
-                    <a class="footer__link" href="">Работа в PLANT CORNER</a>
-                </div>
-
-                <div class="footer__links">
-                    <a class="footer__link" href="">Обратная связь</a>
-                    <a class="footer__link" href="">Контакты</a>
-                    <a class="footer__link" href="">Магазины и студии</a>
-                </div>
-
             </div>
-        </footer>
 
-        <script  src="/js/main.js"></script>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__first">
+                <h2 class="footer__title">PLANT CORNER</h2>
+                <p class="footer__about">Присоединяйтесь к клубу PLANT CORNER чтобы получить скидку по вашей карте. Если
+                    у вас еще нет карты, оформите ее онлайн прямо сейчас.</p>
+                <button class="footer-btn">Присоединиться к клубу PLANT CORNER</button>
+            </div>
+
+            <div class="footer__links">
+                <a class="footer__link" href="">Доставка и самовывоз</a>
+                <a class="footer__link" href="">Обмен и возврат</a>
+                <a class="footer__link" href="">Кредит в PLANT CORNER</a>
+            </div>
+
+            <div class="footer__links">
+                <a class="footer__link" href=""> О компании</a>
+                <a class="footer__link" href="">Демократичный дизайн</a>
+                <a class="footer__link" href="">Работа в PLANT CORNER</a>
+            </div>
+
+            <div class="footer__links">
+                <a class="footer__link" href="">Обратная связь</a>
+                <a class="footer__link" href="">Контакты</a>
+                <a class="footer__link" href="">Магазины и студии</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
+
 </html>
