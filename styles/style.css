@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-
+    transition: .3s all;
 }
 
 body{
@@ -341,6 +341,11 @@ body{
     cursor: pointer;
 }
 
+.footer-btn:hover{
+    background: #60A241;
+    color: #ffffff;
+}
+
 .footer__links{
     display: flex;
     flex-direction: column;
@@ -353,6 +358,10 @@ body{
     font-size: 13px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.footer__link:hover{
+    color: #60A241;
 }
 
 
